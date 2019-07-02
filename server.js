@@ -11,7 +11,7 @@ const expHandlebars = require ("express-handlebars");
 
 let PORT = process.env.PORT || 3000;
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
-let MONGODB_URI = process.env.MONGODB_URI || "mongodb://user:pass11@ds243607.mlab.com:43607/heroku_nh69ttcp";
+let MONGODB_URI = process.env.MONGODB_URI || "mongodb://user:pass11@ds241668.mlab.com:41668/heroku_zh5jmjz6";
 //let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/news_scraper";
 
 //initialize express
